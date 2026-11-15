@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>항공권 총액 비교 | Airlog</title>
+  <meta name="description" content="같은 여정의 항공권 두 개를 승객 수, 수하물, 좌석, 결제 수수료까지 넣어 총액으로 비교합니다.">
+  <link rel="canonical" href="https://newspaperlab.github.io/news/airlog/fare-compare.html">
+  <link rel="stylesheet" href="/assets/reader-tools.css">
+</head>
+<body>
+  <div class="tool-page">
+    <nav class="tool-nav" aria-label="사이트 이동"><a href="/">Newspaper Lab</a><a href="./">Airlog 기사</a></nav>
+    <main>
+      <h1>항공권 총액 비교</h1>
+      <p class="tool-intro">같은 노선·날짜·승객의 항공권 두 개를 수하물과 좌석까지 포함해 비교하세요.</p>
+      <form id="fare" aria-describedby="fare-units">
+        <p class="hint" id="fare-units">같은 통화로 입력하세요. 왕복이면 두 방향의 비용을 합쳐 입력합니다.</p>
+        <label>승객 수 <input name="people" type="number" inputmode="numeric" min="1" max="100" step="1" required value="1"></label>
+        <div class="tool-grid">
+          <fieldset>
+            <legend>항공권 A</legend>
+            <label>세금 포함 항공권 · 1인 <input name="fareA" type="number" inputmode="decimal" min="0" max="1000000000" step="any" required></label>
+            <label>수하물·좌석 등 옵션 · 1인 <input name="optionsA" type="number" inputmode="decimal" min="0" max="1000000000" step="any" value="0"></label>
+            <label>예약 전체에 한 번 붙는 비용 <input name="feeA" type="number" inputmode="decimal" min="0" max="1000000000" step="any" value="0"></label>
+          </fieldset>
+          <fieldset>
+            <legend>항공권 B</legend>
+            <label>세금 포함 항공권 · 1인 <input name="fareB" type="number" inputmode="decimal" min="0" max="1000000000" step="any" required></label>
+            <label>수하물·좌석 등 옵션 · 1인 <input name="optionsB" type="number" inputmode="decimal" min="0" max="1000000000" step="any" value="0"></label>
+            <label>예약 전체에 한 번 붙는 비용 <input name="feeB" type="number" inputmode="decimal" min="0" max="1000000000" step="any" value="0"></label>
+          </fieldset>
+        </div>
+        <div class="actions">
+          <button type="submit">총액 비교</button>
+          <button class="example" type="button" id="example">예시 입력</button>
+        </div>
+        <output id="fare-result" aria-live="polite"></output>
+      </form>
+      <noscript><p>자동 계산을 사용하려면 자바스크립트를 켜세요. 아래 식으로 직접 비교할 수도 있어요.</p></noscript>
+      <section class="tool-notes" aria-labelledby="fare-method">
+        <h2 id="fare-method">계산 방법</h2>
+        <p><strong>총액 = (1인 항공권 + 1인 옵션) × 승객 수 + 예약 단위 비용</strong></p>
+        <p>두 사람이 이용하고 A의 운임이 180,000원, 1인 옵션이 70,000원이라면 총 500,000원입니다. B의 운임이 225,000원이고 1인 옵션이 10,000원, 예약 수수료가 5,000원이면 총 475,000원입니다. 이 예시에서는 첫 화면 운임이 높은 B가 결제 기준으로 25,000원 저렴합니다.</p>
+        <h2>같은 조건으로 비교하기</h2>
+        <p>포함된 위탁수하물이나 좌석은 옵션에 다시 넣지 마세요. 한 명만 수하물을 추가한다면 그 비용을 예약 단위 비용 칸에 한 번 넣으면 됩니다. 단, 카드 결제 통화나 수하물 무게가 다르면 먼저 조건을 맞추세요.</p>
+        <p>이 계산은 입력한 비용을 합산합니다. 변경·환불 규정과 공항 이동비는 각 항공권의 조건을 따로 확인하세요.</p>
+        <p><a href="./articles/zipair-seoul-extra-flights-20261105/ko.html">관련 기사 · ZIPAIR 인천–나리타 임시편</a></p>
+      </section>
+    </main>
+    <footer><a href="/privacy.html">개인정보처리방침</a> · <a href="/contact.html">문의·정정 요청</a></footer>
+  </div>
+  <script>
+    const form = document.querySelector('#fare');
+    const result = document.querySelector('#fare-result');
+    const format = new Intl.NumberFormat('ko-KR', {maximumFractionDigits: 2});
+
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      const value = key => form.elements[key].valueAsNumber || 0;
+      const total = side => Math.round(((value('fare' + side) + value('options' + side)) * value('people') + value('fee' + side)) * 100) / 100;
+      const a = total('A'), b = total('B');
+      const gap = Math.abs(a - b);
+      const comparison = a === b ? '두 항공권의 총액이 같습니다.' :
+        `항공권 ${a < b ? 'A' : 'B'}가 ${format.format(gap)} 저렴합니다.`;
+      result.textContent = `항공권 A · ${format.format(a)}\n항공권 B · ${format.format(b)}\n${comparison} (입력 통화 기준)`;
+    });
+    form.addEventListener('input', () => { result.textContent = ''; });
+    document.querySelector('#example').addEventListener('click', () => {
+      const sample = {people: 2, fareA: 180000, optionsA: 70000, feeA: 0, fareB: 225000, optionsB: 10000, feeB: 5000};
+      for (const [name, amount] of Object.entries(sample)) form.elements[name].value = amount;
+      form.requestSubmit();
+    });
+  </script>
+</body>
+</html>
