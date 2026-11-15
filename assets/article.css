@@ -48,11 +48,10 @@ main .article-head h1 {
   line-height: 1.24;
   overflow-wrap: anywhere;
 }
+html[lang="ko"] main .article-head h1 { word-break: keep-all; }
 main .article-head > .meta {
   order: 1;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px 15px;
+  display: block;
   margin: 16px 0 0;
   color: #526070;
   font-size: .8rem;
