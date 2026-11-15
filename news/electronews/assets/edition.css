@@ -1,3 +1,4 @@
+@import url("/assets/article.css?v=20261115");
 :root{--edition-ink:#18372a;--edition-accent:#2d633f;--edition-soft:#edf5e8;--edition-line:#d0e0cb;--edition-top:#173b2a;--accent:var(--edition-accent)}
 .topline{background:var(--edition-top);color:#fff;border-bottom:4px solid var(--edition-accent)}
 .topline header{padding-top:25px;padding-bottom:25px}

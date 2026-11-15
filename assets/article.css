@@ -1,0 +1,88 @@
+/* Shared article typography for the two editions and both article templates. */
+body:has(main .article-head) {
+  --article-width: 820px;
+  --article-gutter: clamp(16px, 4vw, 34px);
+  color: #1c232d;
+  background: #fff;
+}
+body:has(main .article-head) .topline {
+  background: #fff;
+  color: var(--edition-ink);
+  border-bottom: 1px solid var(--edition-line);
+}
+body:has(main .article-head) .topline header { padding-block: 17px; }
+body:has(main .article-head) .topline .languages a { color: #485361; }
+body:has(main .article-head) .topline .languages .selected {
+  color: var(--edition-ink);
+  border-color: var(--edition-accent);
+}
+body:has(main .article-head) .topline a:focus-visible { outline-color: var(--edition-accent); }
+body:has(main .article-head) .edition-menu { background: #fff; }
+main .article-head,
+main .article-head ~ .cover,
+main .article-head ~ .reading {
+  width: min(100% - var(--article-gutter) * 2, var(--article-width));
+  max-width: none;
+  margin-inline: auto;
+  padding-inline: 0;
+}
+main .article-head {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  padding-block: clamp(26px, 6vw, 65px) clamp(20px, 3vw, 34px);
+  border-top: 0;
+}
+main .article-head > .kicker {
+  margin: 0 0 12px;
+  color: var(--edition-accent);
+  font-size: .81rem;
+  letter-spacing: .06em;
+}
+main .article-head h1 {
+  margin: 0;
+  color: #151b23;
+  font-size: clamp(1.7rem, 4vw, 3.05rem);
+  font-weight: 840;
+  letter-spacing: -.045em;
+  line-height: 1.24;
+  overflow-wrap: anywhere;
+}
+main .article-head > .meta {
+  order: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 15px;
+  margin: 16px 0 0;
+  color: #526070;
+  font-size: .8rem;
+}
+main .article-head > .deck {
+  order: 2;
+  margin: clamp(16px, 3vw, 25px) 0 0;
+  border-top: 1px solid #dfe4eb;
+  padding: 15px 0 0 13px;
+  box-shadow: inset 3px 0 0 -1px var(--edition-accent);
+  color: #273442;
+  font-size: clamp(1rem, 2.3vw, 1.22rem);
+  font-weight: 690;
+  line-height: 1.62;
+}
+main .article-head ~ .cover { margin-bottom: clamp(26px, 4vw, 43px); }
+main .article-head ~ .cover img { display: block; }
+main .article-head ~ .cover figcaption {
+  padding: 0;
+  color: #526070;
+  font-size: .83rem;
+  line-height: 1.55;
+}
+main .article-head ~ .reading > p {
+  color: #23303c;
+  font-size: clamp(1rem, 1.7vw, 1.16rem);
+  line-height: 1.86;
+  margin-bottom: 1.3em;
+}
+main .article-head ~ .reading .sources {
+  border-color: #dfe4eb;
+  padding-top: 20px;
+}

@@ -16,3 +16,19 @@ if (Object.hasOwn(translations, requested)) {
     link.href = url;
   }
 }
+
+if (matchMedia('(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)').matches) {
+  for (const card of document.querySelectorAll('[data-edition-link]')) {
+    card.addEventListener('pointermove', event => {
+      const bounds = card.getBoundingClientRect();
+      const x = (event.clientX - bounds.left) / bounds.width - .5;
+      const y = (event.clientY - bounds.top) / bounds.height - .5;
+      card.style.setProperty('--shift-x', `${x * 17}px`);
+      card.style.setProperty('--shift-y', `${y * 12}px`);
+    });
+    card.addEventListener('pointerleave', () => {
+      card.style.removeProperty('--shift-x');
+      card.style.removeProperty('--shift-y');
+    });
+  }
+}
