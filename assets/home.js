@@ -43,7 +43,7 @@ function element(tag, text, className) {
 }
 
 function makeStory(edition, article, showImage = false) {
-  const base = `/${edition}/`;
+  const base = `/news/${edition}/`;
   const locale = article.locales[lang] ? lang : 'ko';
   const { title, summary } = article.locales[locale];
   const published = article.published || article.date;
@@ -86,7 +86,7 @@ applyFilter();
 
 if (lang !== 'ko') {
   Promise.all(Object.keys(editions).map(async edition => {
-    const response = await fetch(`/${edition}/news.json`);
+    const response = await fetch(`/news/${edition}/news.json`);
     if (!response.ok) throw new Error(`Archive returned ${response.status}`);
     const data = await response.json();
     return data.articles.map(article => ({ edition, article }));

@@ -2,5 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://newspaperlab.github.io/sitemap.xml
-Sitemap: https://newspaperlab.github.io/airlog/news-sitemap.xml
-Sitemap: https://newspaperlab.github.io/electronews/news-sitemap.xml
+Sitemap: https://newspaperlab.github.io/news/airlog/news-sitemap.xml
+Sitemap: https://newspaperlab.github.io/news/electronews/news-sitemap.xml
