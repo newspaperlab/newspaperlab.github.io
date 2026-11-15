@@ -162,3 +162,39 @@ footer { margin-top: clamp(24px,5vh,55px); border-top: 1px solid var(--line); pa
   text-shadow: 0 3px 16px #0b1024;
   animation: headline-in .28s .12s backwards;
 }
+
+.site-header { justify-content: space-between; flex-wrap: wrap; gap: 12px; padding-block: 12px; }
+.home-languages { display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: .8rem; }
+.home-languages a { padding-block: 6px; }
+.home-languages a[aria-current] { color: #294bb1; text-decoration: underline; text-underline-offset: 4px; }
+.home-section { margin-block: clamp(32px, 6vw, 72px); }
+.home-section h2 { font-size: clamp(1.35rem,2.2vw,2rem); margin: 0 0 16px; letter-spacing: -.035em; }
+.news-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(16px, 3.2vw, 40px); }
+.edition-headline { display: inline-flex; gap: .45em; padding: 6px 0 10px; font-weight: 750; }
+.edition-headline:hover, .story-copy a:hover { text-decoration: underline; text-underline-offset: .2em; }
+.story-list { display: grid; gap: 12px; }
+.story-card {
+  display: grid;
+  grid-template-columns: minmax(100px, 35%) minmax(0, 1fr);
+  align-items: start;
+  gap: clamp(12px, 2vw, 22px);
+  padding: clamp(12px, 1.5vw, 20px);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+}
+.story-card figure { margin: 0; }
+.story-card img { display: block; width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: 6px; background: #e8ecf2; }
+.story-card figcaption, .story-meta { font-size: .74rem; line-height: 1.45; color: #4b566b; }
+.story-card figcaption { margin-top: 4px; }
+.story-meta { margin: 0 0 6px; }
+.story-meta span { white-space: nowrap; font-weight: 700; }
+.story-copy h3 { margin: 0; font-size: clamp(.93rem, 1.45vw, 1.2rem); line-height: 1.4; overflow-wrap: anywhere; }
+.story-summary { color: #445064; margin: 7px 0 0; font-size: .87rem; line-height: 1.55; overflow-wrap: anywhere; }
+@media (max-width: 800px) {
+  .news-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 420px) {
+  .story-card { grid-template-columns: minmax(80px, 32%) minmax(0, 1fr); }
+}
+.intro p { max-width: 46rem; margin: 14px 0 0; color: #445064; font-size: clamp(.95rem, 1.4vw, 1.12rem); line-height: 1.65; }

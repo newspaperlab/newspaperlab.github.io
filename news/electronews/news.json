@@ -2457,28 +2457,32 @@
         "ko": {
           "title": "720Hz OLED의 1.39밀리초, 모니터 숫자가 실력이 되기까지",
           "summary": "ASUS가 24.5인치 FHD OLED 두 모델을 소개했다. 주사율과 픽셀 응답시간, 게임의 프레임률을 나눠 봤다.",
-          "body": "모니터가 1초에 화면을 720번 갱신한다면 한 번의 갱신 간격은 약 1.39밀리초다. ASUS가 10월 28일 공개한 ROG Swift OLED PG259QWS Ace의 720Hz를 시간으로 바꾸면 나오는 값이다. 함께 소개한 XG259QWPG Ace는 540Hz다. 두 제품 모두 24.5인치, 1920×1080 해상도의 OLED를 사용한다.\n\n주사율과 응답시간은 다른 시계다\n720Hz는 화면 갱신 빈도이며, 회사가 제시한 0.02ms GTG는 특정 회색 단계 사이의 픽셀 전환 시간이다. 둘은 측정 대상이 다르다. 0.02ms를 마우스를 누르고 화면이 바뀔 때까지 걸리는 전체 시간으로 읽으면 안 된다.\n\n실제로는 입력 장치와 게임 처리, CPU와 GPU의 렌더링, 화면 표시까지 여러 단계가 연결된다. 모니터가 빠르더라도 게임이 충분한 프레임을 만들지 못하면 720개의 서로 다른 새 장면을 매초 공급할 수 없다. 반대로 고주사율의 장점을 보려면 해상도와 화질 설정을 낮추는 선택도 생길 수 있다.\n\n작은 FHD 화면이 겨냥한 사람\n이 제품은 넓은 작업 공간보다 경쟁 게임에서의 움직임 표현에 초점을 둔다. 문서 편집이나 고해상도 사진 작업을 주로 하는 사람에게는 720Hz보다 해상도와 화면 면적, 글자 선명도가 더 중요한 기준일 수 있다. 높은 숫자가 모든 용도에서 상위 선택을 뜻하지는 않는다.\n\n밝기도 조건을 함께 읽어야 한다. 공개된 최대 밝기 수치가 화면 전체를 항상 같은 밝기로 보여준다는 뜻은 아니다. 실내 조명과 반사, 실제 콘텐츠의 밝은 영역이 체감에 영향을 준다. OLED의 장시간 고정 화면 사용과 보증 조건도 확인할 부분이다.\n\n약 1.39ms라는 계산은 제품의 목표를 이해하는 출발점이다. 구매 판단은 자신이 하는 게임에서 현재 PC가 내는 프레임과 모니터 설정을 먼저 확인한 뒤 내려야 한다. 주사율은 빠른 장면을 보여줄 가능성을 넓히지만, 사용자의 실력 향상을 수치로 보장하지 않는다."
+          "body": "540Hz 모니터 옆에 720Hz 모니터가 있다면, 숫자가 큰 쪽에 눈길이 가죠. 게임에서 그 차이를 느끼려면 화면이 얼마나 자주 바뀌는지와 내 PC가 얼마나 자주 새 장면을 그리는지를 같이 봐야 해요.\n\n모니터가 1초에 화면을 720번 갱신한다면 한 번의 갱신 간격은 약 1.39밀리초다. ASUS가 10월 28일 공개한 ROG Swift OLED PG259QWS Ace의 720Hz를 시간으로 바꾸면 나오는 값이다. 함께 소개한 XG259QWPG Ace는 540Hz다. 두 제품 모두 24.5인치, 1920×1080 해상도의 OLED를 사용한다.\n\n주사율과 응답시간은 다른 시계다\n720Hz는 화면 갱신 빈도이며, 회사가 제시한 0.02ms GTG는 특정 회색 단계 사이의 픽셀 전환 시간이다. 둘은 측정 대상이 다르다. 0.02ms를 마우스를 누르고 화면이 바뀔 때까지 걸리는 전체 시간으로 읽으면 안 된다.\n\n실제로는 입력 장치와 게임 처리, CPU와 GPU의 렌더링, 화면 표시까지 여러 단계가 연결된다. 모니터가 빠르더라도 게임이 충분한 프레임을 만들지 못하면 720개의 서로 다른 새 장면을 매초 공급할 수 없다. 반대로 고주사율의 장점을 보려면 해상도와 화질 설정을 낮추는 선택도 생길 수 있다.\n\n작은 FHD 화면이 겨냥한 사람\n이 제품은 넓은 작업 공간보다 경쟁 게임에서의 움직임 표현에 초점을 둔다. 문서 편집이나 고해상도 사진 작업을 주로 하는 사람에게는 720Hz보다 해상도와 화면 면적, 글자 선명도가 더 중요한 기준일 수 있다. 높은 숫자가 모든 용도에서 상위 선택을 뜻하지는 않는다.\n\n밝기도 조건을 함께 읽어야 한다. 공개된 최대 밝기 수치가 화면 전체를 항상 같은 밝기로 보여준다는 뜻은 아니다. 실내 조명과 반사, 실제 콘텐츠의 밝은 영역이 체감에 영향을 준다. OLED의 장시간 고정 화면 사용과 보증 조건도 확인할 부분이다.\n\n약 1.39ms라는 계산은 제품의 목표를 이해하는 출발점이다. 구매 판단은 자신이 하는 게임에서 현재 PC가 내는 프레임과 모니터 설정을 먼저 확인한 뒤 내려야 한다. 주사율은 빠른 장면을 보여줄 가능성을 넓히지만, 사용자의 실력 향상을 수치로 보장하지 않는다.\n\n540Hz와 720Hz 사이의 0.46밀리초\nASUS가 공개한 두 모델을 비교하면 540Hz의 이론상 화면 갱신 간격은 약 1.85밀리초, 720Hz는 약 1.39밀리초다. 차이는 약 0.46밀리초다. 예를 들어 PC가 360fps를 유지해도 새 게임 화면은 평균 약 2.78밀리초마다 만들어진다. 더 빠른 모니터가 표시할 기회는 늘지만 매번 새로운 프레임을 받을 수는 없다. PG259QWS Ace를 검토한다면 게임 안에서 실제 프레임을 확인한 뒤 GPU의 출력 규격과 모니터 입력, 운영체제에 표시되는 선택 가능 주사율을 차례로 대조하는 편이 유용하다."
         },
         "en": {
           "title": "What 720Hz OLED's 1.39 milliseconds actually means",
           "summary": "Refresh rate, pixel transitions and game frame rate answer different questions.",
-          "body": "ASUS introduced two 24.5-inch FHD OLED esports displays on October 28: the PG259QWS Ace at 720Hz and XG259QWPG Ace at 540Hz.\n\nSeparate the clocks\nOne refresh at 720Hz takes about 1.39ms, calculated as 1,000 divided by 720. The quoted 0.02ms GTG measures a pixel transition, not the complete delay from mouse input to an image.\n\nThe PC must also render frames. A fast display cannot create distinct new game states that the system has not produced. Competitive settings may therefore involve a trade-off with resolution and visual quality.\n\nFor document or photo work, workspace and text detail may matter more than extreme refresh. Peak brightness is likewise not a promise of constant full-screen brightness.\n\nCheck frame rates in the games you actually play before buying. The display expands what can be shown; it does not guarantee improved player performance."
+          "body": "Put a 720Hz monitor next to a 540Hz one and the bigger number is hard to miss. To see what it means in a game, look at how often the display updates and how often your PC draws a new frame.\n\nASUS introduced two 24.5-inch FHD OLED esports displays on October 28: the PG259QWS Ace at 720Hz and XG259QWPG Ace at 540Hz.\n\nSeparate the clocks\nOne refresh at 720Hz takes about 1.39ms, calculated as 1,000 divided by 720. The quoted 0.02ms GTG measures a pixel transition, not the complete delay from mouse input to an image.\n\nThe PC must also render frames. A fast display cannot create distinct new game states that the system has not produced. Competitive settings may therefore involve a trade-off with resolution and visual quality.\n\nFor document or photo work, workspace and text detail may matter more than extreme refresh. Peak brightness is likewise not a promise of constant full-screen brightness.\n\nCheck frame rates in the games you actually play before buying. The display expands what can be shown; it does not guarantee improved player performance.\n\nThe 0.46 milliseconds between 540Hz and 720Hz\nThe theoretical update interval is about 1.85 ms at 540Hz and 1.39 ms at 720Hz, a difference of roughly 0.46 ms. A PC maintaining 360 fps, for example, generates a new game frame roughly every 2.78 ms on average. A faster display offers more opportunities to show an update, but it cannot receive a new game frame at every refresh. For the PG259QWS Ace, check actual game frame rates first, then compare the GPU output, monitor input and refresh options available in the operating system."
         },
         "ja": {
           "title": "720Hz OLEDの約1.39msは何を意味するか",
           "summary": "リフレッシュレートと画素応答、ゲームのfpsは別の指標だ。",
-          "body": "ASUSは10月28日、24.5型FHD OLEDの720Hzモデルと540Hzモデルを発表した。720Hzを時間に直すと1回約1.39msになる。\n\n違う時計を区別する\n0.02ms GTGは画素の階調変化で、マウス入力から表示までの全遅延ではない。PCが十分なフレームを生成できるかも重要だ。\n\n競技ゲームでは速さが魅力でも、文書や写真では解像度や作業領域が優先される場合がある。最大輝度も常時全面の明るさではない。自分のゲームで出るfpsと設定を確認し、用途に合うか判断したい。"
+          "body": "540Hzの隣に720Hzのモニターが並ぶと、大きな数字が目を引きますよね。ゲームでどんな違いが出るかは、画面の更新頻度と、PCが新しいフレームを描く頻度を一緒に見ると分かります。\n\nASUSは10月28日、24.5型FHD OLEDの720Hzモデルと540Hzモデルを発表した。720Hzを時間に直すと1回約1.39msになる。\n\n違う時計を区別する\n0.02ms GTGは画素の階調変化で、マウス入力から表示までの全遅延ではない。PCが十分なフレームを生成できるかも重要だ。\n\n競技ゲームでは速さが魅力でも、文書や写真では解像度や作業領域が優先される場合がある。最大輝度も常時全面の明るさではない。自分のゲームで出るfpsと設定を確認し、用途に合うか判断したい。\n\n540Hzと720Hzの差は約0.46ミリ秒\n理論上の画面更新間隔は540Hzで約1.85ミリ秒、720Hzで約1.39ミリ秒。差は約0.46ミリ秒だ。PCが360fpsを維持しても、新しいゲーム画面は平均約2.78ミリ秒に1枚しか生成されない。パネルの更新機会は増えるものの、毎回新しいフレームを受け取れるわけではない。PG259QWS Aceを選ぶ前に、実際のゲームのfps、GPU出力、モニター入力、OSで選べる周波数を順に確認するとよい。"
         },
         "zh": {
           "title": "720Hz OLED的约1.39毫秒意味着什么",
           "summary": "刷新率、像素响应与游戏帧率需要分开。",
-          "body": "ASUS10月28日公布24.5英寸FHD OLED的720Hz和540Hz机型。720Hz每次刷新间隔约为1.39毫秒。\n\n区分不同计时\n0.02ms GTG是像素灰阶转换，不是鼠标输入到画面的全部延迟。电脑还需实际生成足够帧数，显示器不能凭空产生新的游戏画面。\n\n竞技游戏以外，文档和照片工作可能更看重分辨率与面积。峰值亮度也不等于持续全屏亮度。先测自己常玩游戏的帧率与设置，再判断高刷新是否有用。"
+          "body": "540Hz和720Hz的显示器摆在一起，数字大的那台很容易吸引注意。想知道游戏里会有什么区别，可以一起看看屏幕多久刷新一次，以及你的电脑多久画出一帧。\n\nASUS10月28日公布24.5英寸FHD OLED的720Hz和540Hz机型。720Hz每次刷新间隔约为1.39毫秒。\n\n区分不同计时\n0.02ms GTG是像素灰阶转换，不是鼠标输入到画面的全部延迟。电脑还需实际生成足够帧数，显示器不能凭空产生新的游戏画面。\n\n竞技游戏以外，文档和照片工作可能更看重分辨率与面积。峰值亮度也不等于持续全屏亮度。先测自己常玩游戏的帧率与设置，再判断高刷新是否有用。\n\n540Hz与720Hz相差约0.46毫秒\n540Hz的理论刷新间隔约为1.85毫秒，720Hz约为1.39毫秒，相差约0.46毫秒。例如电脑稳定输出360fps时，平均约每2.78毫秒才生成一帧。更快的显示器有更多刷新机会，但每次刷新未必都有新帧。考虑PG259QWS Ace时，可先确认常玩的游戏实际帧率，再核对显卡输出、显示器输入和操作系统可选的刷新率。"
         }
       },
       "sources": [
         {
           "name": "ASUS",
           "url": "https://press.asus.com/news/press-releases/rog-swift-oled-pg259qws-ace-720hz-gaming-monitor/"
+        },
+        {
+          "name": "ASUS ROG · PG259QWS Ace product specifications",
+          "url": "https://rog.asus.com/monitors/23-to-24-5-inches/rog-swift-oled-pg259qws-ace/"
         }
       ],
       "image": {
@@ -3599,28 +3603,32 @@
         "ko": {
           "title": "소니 ULT FIELD 1에 스모크 블루, 휴대용 스피커 사양 읽는 법",
           "summary": "소니가 기존 휴대용 스피커에 새 색상을 더했다. 배터리와 방진·방수 표기에는 각각 시험 조건이 붙는다.",
-          "body": "스모크 블루가 추가됐다\n소니 유럽은 11월 3일 휴대용 무선 스피커 ULT FIELD 1에 스모크 블루 색상을 추가한다고 발표했다. 검정, 오프화이트, 포레스트 그레이, 주황에 이은 선택지다. ULT 버튼을 켜면 저음을 강조하는 기존 모델의 기능도 함께 소개했다.\n\n최대 12시간을 읽는 방법\n소니가 제시한 최대 12시간은 ULT 기능을 켜고 볼륨을 25로 맞춘 조건의 수치다. 같은 제품도 볼륨이나 재생 곡, 주변 온도에 따라 지속 시간이 달라질 수 있다. 야외에서 오래 쓸 계획이라면 한 번의 측정치보다 자신의 볼륨과 충전 여건을 고려하는 편이 낫다.\n\nIP67의 두 숫자\n앞 숫자 6은 방진, 뒤 숫자 7은 정해진 조건의 침수 시험을 가리킨다. 소니 자료는 캡을 단단히 닫고 수심 1m에서 30분 시험했다고 설명한다. 떨어뜨려 외장이 변형된 경우에는 방진·방수 성능도 영향을 받을 수 있다. 국내 가격과 판매 일정은 한국 판매처에서 따로 확인해야 한다."
+          "body": "휴대용 스피커를 고를 때 색상이 먼저 눈에 들어올 수 있죠. 막상 밖에 들고 나갈 거라면 배터리가 얼마나 가는지, 노트북에 케이블을 꽂아 소리를 들을 수 있는지가 더 궁금할 거예요.\n\n스모크 블루가 추가됐다\n소니 유럽은 11월 3일 휴대용 무선 스피커 ULT FIELD 1에 스모크 블루 색상을 추가한다고 발표했다. 검정, 오프화이트, 포레스트 그레이, 주황에 이은 선택지다. ULT 버튼을 켜면 저음을 강조하는 기존 모델의 기능도 함께 소개했다.\n\n최대 12시간을 읽는 방법\n소니가 제시한 최대 12시간은 ULT 기능을 켜고 볼륨을 25로 맞춘 조건의 수치다. 같은 제품도 볼륨이나 재생 곡, 주변 온도에 따라 지속 시간이 달라질 수 있다. 야외에서 오래 쓸 계획이라면 한 번의 측정치보다 자신의 볼륨과 충전 여건을 고려하는 편이 낫다.\n\nIP67의 두 숫자\n앞 숫자 6은 방진, 뒤 숫자 7은 정해진 조건의 침수 시험을 가리킨다. 소니 자료는 캡을 단단히 닫고 수심 1m에서 30분 시험했다고 설명한다. 떨어뜨려 외장이 변형된 경우에는 방진·방수 성능도 영향을 받을 수 있다. 국내 가격과 판매 일정은 한국 판매처에서 따로 확인해야 한다.\n\nUSB-C가 하는 일과 두 대를 쓰는 조건\n소니의 SRS-ULT10 사양표에서 USB-C는 충전 전용이고, 오디오 전송 항목에는 블루투스 SBC·AAC가 나열돼 있다. 노트북과 USB-C 케이블로 연결해 유선 스피커처럼 쓸 계획이라면 구매 전에 이 차이를 확인할 필요가 있다. 소니는 스테레오 페어 기능도 명시한다. 블루투스 연결 한 대와 두 대를 묶어 좌우 채널을 나누는 구성은 필요한 기기 수와 설치 공간이 달라진다."
         },
         "en": {
           "title": "Sony adds Smoke Blue to the ULT FIELD 1",
           "summary": "The portable speaker gains a colour option. Its battery and water resistance figures come with test conditions.",
-          "body": "A colour update\nSony Europe announced Smoke Blue for its ULT FIELD 1 on November 3. It joins four existing colours. The speaker’s ULT button emphasises bass.\n\nThe 12-hour figure\nSony lists up to 12 hours with ULT enabled and volume at 25. Playback, volume and temperature can change that result. Outdoor users should plan charging around their own conditions.\n\nReading IP67\nThe first digit covers dust and the second refers to a defined immersion test. Sony tested the speaker at one metre for 30 minutes with the cap secured. Impact damage may affect protection. Local prices and availability need a regional check."
+          "body": "A new color might catch your eye first. If you’re taking this speaker out for the day, you probably also want to know how long it lasts and whether a cable can carry audio from your laptop.\n\nA colour update\nSony Europe announced Smoke Blue for its ULT FIELD 1 on November 3. It joins four existing colours. The speaker’s ULT button emphasises bass.\n\nThe 12-hour figure\nSony lists up to 12 hours with ULT enabled and volume at 25. Playback, volume and temperature can change that result. Outdoor users should plan charging around their own conditions.\n\nReading IP67\nThe first digit covers dust and the second refers to a defined immersion test. Sony tested the speaker at one metre for 30 minutes with the cap secured. Impact damage may affect protection. Local prices and availability need a regional check.\n\nWhat USB-C and stereo pairing actually provide\nSony’s SRS-ULT10 specification lists USB-C for charging and SBC and AAC for Bluetooth audio. If you plan to connect a laptop by USB-C and use it as a wired speaker, check that distinction before buying. Sony also lists stereo pairing. A two-speaker setup with separate left and right channels requires more equipment and space than playback through one Bluetooth speaker."
         },
         "ja": {
           "title": "ソニーのULT FIELD 1にスモークブルー",
           "summary": "携帯スピーカーの新色。電池と防水の仕様には試験条件がある。",
-          "body": "新色の追加\nソニー欧州は11月3日、既存の4色にスモークブルーを加えると発表した。ULTボタンは低音を強調する。\n\n最大12時間の条件\nULTをオンにし音量25で測定した値。楽曲や音量、周囲温度によって結果は変わる。屋外で使う際には充電の手段も考えたい。\n\nIP67の意味\n最初の数字は防じん、次の数字は所定の浸水試験を示す。ソニーの試験はキャップを閉じ、水深1mで30分。衝撃で外装が損傷すれば保護性能が低下しうる。価格と発売日は地域の案内を確認したい。"
+          "body": "新色にはつい目がいきますよね。外に持ち出すなら、どれくらい電池が持つのか、ノートPCとケーブルでつないで音を出せるのかも気になるところです。\n\n新色の追加\nソニー欧州は11月3日、既存の4色にスモークブルーを加えると発表した。ULTボタンは低音を強調する。\n\n最大12時間の条件\nULTをオンにし音量25で測定した値。楽曲や音量、周囲温度によって結果は変わる。屋外で使う際には充電の手段も考えたい。\n\nIP67の意味\n最初の数字は防じん、次の数字は所定の浸水試験を示す。ソニーの試験はキャップを閉じ、水深1mで30分。衝撃で外装が損傷すれば保護性能が低下しうる。価格と発売日は地域の案内を確認したい。\n\nUSB-C端子とステレオペアの使い分け\nソニーのSRS-ULT10の仕様では、USB-Cは充電専用で、Bluetooth音声はSBCとAACに対応する。USB-CケーブルでノートPCにつないで有線スピーカーとして使いたいなら、この違いを購入前に確認したい。ステレオペアにも対応するが、左右のチャンネルを2台に分ける場合は、1台で聴く場合より機器と設置場所が必要になる。"
         },
         "zh": {
           "title": "索尼ULT FIELD 1新增烟蓝色",
           "summary": "便携音箱增加一种配色，续航与防水数据都有测试条件。",
-          "body": "新增配色\n索尼欧洲11月3日宣布为现有四种配色增加烟蓝色。ULT按键可增强低音。\n\n最长12小时的条件\n索尼在开启ULT且音量设为25时测得该数值。曲目、音量和环境温度都会影响续航。户外长时间使用时，可以结合自己的音量和充电条件来安排。\n\n如何理解IP67\n前一位表示防尘，后一位表示规定的浸水测试。索尼将盖子扣紧后在1米水深测试30分钟。撞击造成的外壳损伤可能影响防护。当地价格和上市安排需查阅当地渠道。"
+          "body": "挑便携音箱时，新配色也许最先吸引你。真要带出门，电池能撑多久、能不能用线连上笔记本听声音，可能更值得先弄清楚。\n\n新增配色\n索尼欧洲11月3日宣布为现有四种配色增加烟蓝色。ULT按键可增强低音。\n\n最长12小时的条件\n索尼在开启ULT且音量设为25时测得该数值。曲目、音量和环境温度都会影响续航。户外长时间使用时，可以结合自己的音量和充电条件来安排。\n\n如何理解IP67\n前一位表示防尘，后一位表示规定的浸水测试。索尼将盖子扣紧后在1米水深测试30分钟。撞击造成的外壳损伤可能影响防护。当地价格和上市安排需查阅当地渠道。\n\nUSB-C和立体声配对分别有什么用\n索尼的SRS-ULT10规格表显示，USB-C仅用于充电，蓝牙音频支持SBC和AAC。若打算用USB-C线连接笔记本并作为有线扬声器使用，购买前应弄清这一区别。产品还支持立体声配对。用两台音箱分别播放左右声道，需要比单台蓝牙播放更多设备和摆放空间。"
         }
       },
       "sources": [
         {
           "name": "Sony Europe",
           "url": "https://www.sony.eu/presscentre/sony-introduces-new-smoke-blue-colour-to-ult-field-1-delivering-powerful-bass-in-a-compact-design"
+        },
+        {
+          "name": "Sony · SRS-ULT10 technical specifications",
+          "url": "https://www.sony.com/electronics/support/speakers-wireless-speakers/srs-ult10/specifications"
         }
       ],
       "image": {

@@ -3466,28 +3466,32 @@
         "ko": {
           "title": "A220이 바꾸는 노선 지도, 작은 비행기의 긴 연결",
           "summary": "Airbus가 A220의 노선 운용 사례를 소개했다. 중요한 질문은 얼마나 멀리 나는가보다, 어떤 수요를 직항으로 연결할 수 있는가다.",
-          "body": "새 노선 발표가 아닌 운용 사례\nAirbus는 11월 3일 A220이 여러 시장에서 어떻게 쓰이는지 소개하는 해설을 공개했다. 특정 항공사의 신규 취항 공지와는 성격이 다르다. 이 글을 보고 바로 예약 가능한 새 노선이 생겼다고 받아들이기보다, 항공사가 기재를 선택할 때 무엇을 계산하는지 살펴볼 필요가 있다.\n\nA220은 어떤 비행기인가\nA220은 단일 통로 객실을 갖춘 여객기 계열이다. 장거리 대형기와 달리 비교적 작은 규모의 수요를 연결하는 역할을 생각하면 이해하기 쉽다. Airbus의 운용 현황 집계에는 2016년 취항 이후 새로 연결된 노선이 400개 이상으로 제시된다. 이는 제조사 집계이며, 지금도 그 노선이 모두 운항한다는 뜻은 아니다.\n\n직항의 가치는 거리 밖에 있다\n편집부 분석으로는 기재와 수요의 균형이 핵심이다. 좌석을 채우기 어려운 구간에서 지나치게 큰 항공기를 쓰면 운항 부담이 커질 수 있다. 적절한 크기의 기재로 직항이 가능해지면 승객은 환승 대기와 짐을 다시 찾는 번거로움을 줄일 여지가 있다. 다만 운임이 저렴해지거나 매일 운항한다는 결과까지 자동으로 따라오지는 않는다.\n\n여행자는 무엇을 확인해야 하나\n노선 개설 가능성과 실제 운항은 구분해야 한다. 여행 날짜의 운항 여부, 공항 위치, 환승 시간, 수하물 조건을 함께 확인해야 한다. 이번 발표는 기재가 항공사의 선택지를 넓힐 수 있다는 설명이지, 특정 여행 일정의 편의성을 보장하는 약속은 아니다."
+          "body": "여행지를 찾아보다 환승이 당연하다고 생각했던 도시 사이에 직항이 생긴 걸 본 적 있나요? 탈린에서 테네리페까지 가는 항공편을 예로 들어, 어떤 비행기라서 그 선택지가 생겼는지 살펴볼게요.\n\n새 노선 발표가 아닌 운용 사례\nAirbus는 11월 3일 A220이 여러 시장에서 어떻게 쓰이는지 소개하는 해설을 공개했다. 특정 항공사의 신규 취항 공지와는 성격이 다르다. 이 글을 보고 바로 예약 가능한 새 노선이 생겼다고 받아들이기보다, 항공사가 기재를 선택할 때 무엇을 계산하는지 살펴볼 필요가 있다.\n\nA220은 어떤 비행기인가\nA220은 단일 통로 여객기다. Airbus의 기종 소개에 따르면 2016년 상업 운항을 시작했다. 수요에 비해 대형기의 좌석이 너무 많은 구간에서 이 기종을 검토할 수 있다.\n\n탈린–테네리페가 보여 주는 두 가지 조건\nAirbus가 소개한 에어발틱의 탈린–테네리페 직항은 4,600km가 넘는다. 제조사 제원에서 A220-100은 100~120석에 최대 3,600해리, A220-300은 120~160석에 최대 3,450해리다. 더 큰 -300은 좌석을 더 제공하지만 공시 최대 항속거리는 더 짧다. 항공사는 거리를 갈 수 있는지와 비수기에도 좌석을 채울 수 있는지를 함께 따져야 한다. 최대 항속거리는 탑재량·바람·예비 연료를 반영한 개별 항공편의 운항 가능 거리를 대신할 수 없다.\n\n직항의 가치는 거리 밖에 있다\n편집부 분석으로는 기재와 수요의 균형이 핵심이다. 좌석을 채우기 어려운 구간에서 지나치게 큰 항공기를 쓰면 운항 부담이 커질 수 있다. 적절한 크기의 기재로 직항이 가능해지면 승객은 환승 대기와 짐을 다시 찾는 번거로움을 줄일 여지가 있다. 다만 운임이 저렴해지거나 매일 운항한다는 결과까지 자동으로 따라오지는 않는다.\n\n여행자는 무엇을 확인해야 하나\n노선 개설 가능성과 실제 운항은 구분해야 한다. 여행 날짜의 운항 여부, 공항 위치, 환승 시간, 수하물 조건을 함께 확인해야 한다. 이번 발표는 기재가 항공사의 선택지를 넓힐 수 있다는 설명이지, 특정 여행 일정의 편의성을 보장하는 약속은 아니다."
         },
         "en": {
           "title": "How the A220 changes the route map",
           "summary": "Airbus has published a look at A220 operations. The useful question is not just how far an aircraft flies, but which markets it can connect directly.",
-          "body": "An operations story, not a route launch\nAirbus published its route-focused A220 feature on November 3. It is a manufacturer’s explanation of operations rather than an airline timetable announcement. Readers should not treat it as confirmation that a particular new service is already bookable.\n\nMeet the aircraft\nThe A220 is a single-aisle passenger aircraft family. A useful way to understand its role is to consider markets where demand may not justify a larger jet. Airbus counts more than 400 new routes since entry into service in 2016. That is a manufacturer-reported cumulative figure, not a list of routes necessarily operating today.\n\nWhy a direct flight matters\nOur analysis centers on matching capacity to demand. Too much capacity can make a thin route difficult to sustain. A suitable aircraft may create room for a nonstop service, potentially removing a connection and its waiting time. This does not automatically mean lower fares or daily frequencies: scheduling, airport access and commercial decisions still matter.\n\nBefore planning a journey\nCheck the airline’s actual dates, airports, baggage terms and connecting arrangements. An aircraft’s flexibility expands an operator’s choices; it does not guarantee a convenient itinerary for every traveler."
+          "body": "Ever looked up a trip and found a nonstop flight where you expected a connection? Let’s use Tallinn to Tenerife to see what makes that possible.\n\nAn operations story, not a route launch\nAirbus published its route-focused A220 feature on November 3. It is a manufacturer’s explanation of operations rather than an airline timetable announcement. Readers should not treat it as confirmation that a particular new service is already bookable.\n\nMeet the aircraft\nThe A220 is a single-aisle passenger aircraft that entered commercial service in 2016, according to Airbus’s family page. It gives airlines a smaller option when demand would leave too many seats empty on a larger jet.\n\nWhat Tallinn–Tenerife illustrates\nAirbus cites airBaltic’s nonstop Tallinn–Tenerife service, a route of more than 4,600 km. Its family sheet lists 100–120 seats and up to 3,600 nautical miles for the A220-100, versus 120–160 seats and up to 3,450 nautical miles for the A220-300. The larger variant offers more seats with a shorter published maximum range. An airline has to assess whether it can cover the distance and fill enough seats outside peak periods. Actual dispatch range also depends on payload, winds and fuel reserves.\n\nWhy a direct flight matters\nOur analysis centers on matching capacity to demand. Too much capacity can make a thin route difficult to sustain. A suitable aircraft may create room for a nonstop service, potentially removing a connection and its waiting time. This does not automatically mean lower fares or daily frequencies: scheduling, airport access and commercial decisions still matter.\n\nBefore planning a journey\nCheck the airline’s actual dates, airports, baggage terms and connecting arrangements. An aircraft’s flexibility expands an operator’s choices; it does not guarantee a convenient itinerary for every traveler."
         },
         "ja": {
           "title": "A220が変える路線図、直行便を支える機材選び",
           "summary": "AirbusがA220の運航事例を紹介。航続距離だけでなく、どんな需要を直行便で結べるかが焦点だ。",
-          "body": "新規就航の発表ではない\nAirbusは11月3日、A220の路線運用を紹介する解説を公開した。航空会社の時刻表発表とは異なるため、特定の新路線が予約可能になったと受け取るべきではない。\n\nA220とは\nA220は単通路の旅客機ファミリーだ。大型機では需要に対して座席数が多すぎる市場を考えると、その役割が見えやすい。メーカーは2016年の就航以来、400以上の新路線につながったと集計している。ただし累計値であり、全路線が現在も運航中という意味ではない。\n\n直行便の意味を読む\n編集部の分析では、需要と機材規模の釣り合いが重要だ。適切な座席数で直行便を成立させられれば、乗客は乗り継ぎの待ち時間を減らせる可能性がある。一方、運賃の値下げや毎日運航まで保証するものではない。空港条件や航空会社の判断も関わる。\n\n旅行前の確認事項\n実際の運航日、利用空港、手荷物条件、乗り継ぎを確認したい。機材の柔軟性は選択肢を広げるが、個々の旅程の便利さを約束するものではない。"
+          "body": "乗り継ぐつもりで調べたら、直行便が見つかったことはありませんか。タリンからテネリフェへの便を例に、どんな機材がその選択肢を生んだのか見ていきましょう。\n\n新規就航の発表ではない\nAirbusは11月3日、A220の路線運用を紹介する解説を公開した。航空会社の時刻表発表とは異なるため、特定の新路線が予約可能になったと受け取るべきではない。\n\nA220とは\nA220は単通路の旅客機だ。エアバスの機種紹介によると2016年に商業運航を開始した。大型機では座席を埋めにくい路線で、より小さい機材の選択肢になる。\n\nタリン–テネリフェ線が示す二つの条件\nエアバスが紹介したエアバルティックのタリン–テネリフェ直行便は4,600kmを超える。メーカーの諸元ではA220-100が100～120席で最大3,600海里、A220-300が120～160席で最大3,450海里。大型の-300は座席が多い一方、公称最大航続距離は短い。航空会社は距離を飛べるかに加え、閑散期にも座席を埋められるかを考える。実際の運航可能距離は搭載量や風、予備燃料にも左右される。\n\n直行便の意味を読む\n編集部の分析では、需要と機材規模の釣り合いが重要だ。適切な座席数で直行便を成立させられれば、乗客は乗り継ぎの待ち時間を減らせる可能性がある。一方、運賃の値下げや毎日運航まで保証するものではない。空港条件や航空会社の判断も関わる。\n\n旅行前の確認事項\n実際の運航日、利用空港、手荷物条件、乗り継ぎを確認したい。機材の柔軟性は選択肢を広げるが、個々の旅程の便利さを約束するものではない。"
         },
         "zh": {
           "title": "A220如何改变航线图：直飞背后的机型选择",
           "summary": "Airbus介绍A220的航线运用。关键不只是飞多远，而是哪些需求能够由直飞服务承接。",
-          "body": "不是新航线开售公告\nAirbus于11月3日发布A220航线运用解读。它属于制造商的运营案例介绍，不是航空公司的时刻表公告，不能据此认定某条新航线已经开放预订。\n\n认识A220\nA220是单通道客机系列。理解其作用，可以从需求不足以支撑更大飞机的市场出发。Airbus称，自2016年投入服务以来，该机型促成了400多条新航线。这是制造商累计统计，不代表这些航线目前全部仍在运营。\n\n直飞为何重要\n编辑部分析认为，核心在于运力与需求匹配。座位过多可能增加低客流航线的经营压力。合适的飞机若能支撑直飞，旅客就可能减少中转等待。但这不会自动带来低票价或每日航班，机场条件和商业决策同样重要。\n\n订票前仍要核实\n应查询实际日期、机场、行李条款及中转安排。飞机的灵活性扩大的是航空公司的选择空间，并不是对每位旅客行程便利程度的保证。"
+          "body": "查机票时，你有没有发现原以为要转机的地方居然有直飞？我们就从塔林到特内里费的航班说起，看看飞机是怎么给旅客多一个选择的。\n\n不是新航线开售公告\nAirbus于11月3日发布A220航线运用解读。它属于制造商的运营案例介绍，不是航空公司的时刻表公告，不能据此认定某条新航线已经开放预订。\n\n认识A220\nA220是单通道客机。空客的机型介绍显示，它于2016年投入商业运营。在客流不足以坐满大型飞机的航线上，航司可以考虑这款较小的机型。\n\n塔林至特内里费航线说明了什么\n空客介绍的波罗的海航空塔林至特内里费直飞航线超过4,600公里。厂家规格显示，A220-100为100至120座，最大航程3,600海里；A220-300为120至160座，最大航程3,450海里。较大的-300座位更多，但公示最大航程更短。航司既要看飞机能否飞完全程，也要判断淡季能否坐满足够多的座位。具体航班可飞的距离还取决于载荷、风和备用燃油。\n\n直飞为何重要\n编辑部分析认为，核心在于运力与需求匹配。座位过多可能增加低客流航线的经营压力。合适的飞机若能支撑直飞，旅客就可能减少中转等待。但这不会自动带来低票价或每日航班，机场条件和商业决策同样重要。\n\n订票前仍要核实\n应查询实际日期、机场、行李条款及中转安排。飞机的灵活性扩大的是航空公司的选择空间，并不是对每位旅客行程便利程度的保证。"
         }
       },
       "sources": [
         {
           "name": "Airbus",
           "url": "https://www.airbus.com/en/newsroom/stories/2026-11-where-the-a220-flies-opening-routes-others-cannot"
+        },
+        {
+          "name": "Airbus · A220 family specifications",
+          "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a220-family"
         }
       ],
       "image": {
@@ -3670,28 +3674,32 @@
         "ko": {
           "title": "루프트한자, 연료비가 늘고도 영업이익이 오른 3분기",
           "summary": "루프트한자그룹의 3분기 매출은 122억 유로였다. 항공사 실적에서 매출과 이익은 어떻게 다를까?",
-          "body": "7~9월에 무슨 일이 있었나\n루프트한자그룹은 11월 3일 3분기 매출이 전년 동기보다 9% 증가한 122억 유로라고 발표했다. 회사가 공시한 조정 영업이익은 약 14억 유로로 6% 늘었다. 같은 기간 연료비는 5억 4,300만 유로 증가했다.\n\n그룹 실적과 개별 항공편\n루프트한자그룹에는 독일의 루프트한자 외에도 여러 항공사와 화물·정비 사업이 있다. 그룹 매출은 이 사업들을 함께 보여준다. 조정 영업이익은 회사가 일부 항목을 조정해 영업 활동 성과를 보여주는 지표라서, 매출이나 최종 순이익과는 보는 범위가 다르다.\n\n여행자가 읽을 수 있는 것\n회사는 강한 수요와 비용 관리를 수익 개선의 배경으로 꼽았다. 여름 성수기를 포함하는 분기인 만큼, 이 성과를 겨울 노선에 그대로 대입하기는 어렵다. 여행 비용을 비교할 때는 그룹 실적보다 같은 날짜의 직항 여부와 변경 수수료, 수하물 포함 운임이 더 직접적인 기준이다."
+          "body": "기름값이 올랐는데 항공사가 이익을 더 냈다니, 얼핏 보면 앞뒤가 안 맞는 것 같죠. 루프트한자그룹의 실적에서 이익과 이익률을 함께 보면 무슨 일이 있었는지 이해하기 쉬워요.\n\n7~9월에 무슨 일이 있었나\n루프트한자그룹은 11월 3일 3분기 매출이 전년 동기보다 9% 증가한 122억 유로라고 발표했다. 회사가 공시한 조정 영업이익은 약 14억 유로로 6% 늘었다. 같은 기간 연료비는 5억 4,300만 유로 증가했다.\n\n그룹 실적과 개별 항공편\n루프트한자그룹에는 독일의 루프트한자 외에도 여러 항공사와 화물·정비 사업이 있다. 그룹 매출은 이 사업들을 함께 보여준다. 조정 영업이익은 회사가 일부 항목을 조정해 영업 활동 성과를 보여주는 지표라서, 매출이나 최종 순이익과는 보는 범위가 다르다.\n\n이익은 늘었는데 이익률은 왜 떨어졌나\n루프트한자그룹의 3분기 실적표를 보면 조정 영업이익은 13억 3,100만 유로에서 14억 700만 유로로 7,600만 유로 늘었다. 매출은 111억 9,900만 유로에서 122억 4,000만 유로로 약 9% 증가해 이익 증가율 약 6%를 웃돌았다. 같은 기간 조정 영업이익률은 11.9%에서 11.5%로 0.4%포인트 내려갔다. 그룹이 벌어들인 이익의 절대액은 커졌지만, 매출 100유로당 남긴 조정 영업이익은 11.90유로에서 11.50유로로 줄었다.\n\n여행자가 읽을 수 있는 것\n회사는 강한 수요와 비용 관리를 수익 개선의 배경으로 꼽았다. 여름 성수기를 포함하는 분기인 만큼, 이 성과를 겨울 노선에 그대로 대입하기는 어렵다. 여행 비용을 비교할 때는 그룹 실적보다 같은 날짜의 직항 여부와 변경 수수료, 수하물 포함 운임이 더 직접적인 기준이다."
         },
         "en": {
           "title": "Lufthansa Group’s profit rose despite higher fuel costs",
           "summary": "The group reported €12.2 billion in third-quarter revenue. Here is what the headline figures capture.",
-          "body": "July to September\nLufthansa Group reported on November 3 that third-quarter revenue rose 9% to €12.2 billion. Adjusted EBIT reached around €1.4 billion, up 6%, while fuel costs rose €543 million year over year.\n\nReading group results\nThe group includes airlines beyond Lufthansa itself, plus cargo and maintenance operations. Adjusted EBIT measures operating performance after adjustments. Revenue measures sales, and net income reflects additional items.\n\nWhat travellers can take from it\nThe company pointed to strong demand and cost control. A quarter that includes summer travel tells little about fares on a particular winter route. For a specific booking, compare schedules, change fees and baggage-inclusive prices."
+          "body": "Fuel got more expensive, yet Lufthansa Group earned more. How did that happen? The quarter makes more sense once you look at profit alongside the profit margin.\n\nJuly to September\nLufthansa Group reported on November 3 that third-quarter revenue rose 9% to €12.2 billion. Adjusted EBIT reached around €1.4 billion, up 6%, while fuel costs rose €543 million year over year.\n\nReading group results\nThe group includes airlines beyond Lufthansa itself, plus cargo and maintenance operations. Adjusted EBIT measures operating performance after adjustments. Revenue measures sales, and net income reflects additional items.\n\nWhy profit rose while the margin fell\nThe group’s Q3 results show adjusted EBIT rising by €76 million, from €1.331 billion to €1.407 billion. Revenue went from €11.199 billion to €12.240 billion, growing about 9% against roughly 6% for adjusted EBIT. The adjusted EBIT margin therefore slipped 0.4 percentage points, from 11.9% to 11.5%. The group earned more in total while keeping €11.50 in adjusted operating profit per €100 of revenue, down from €11.90.\n\nWhat travellers can take from it\nThe company pointed to strong demand and cost control. A quarter that includes summer travel tells little about fares on a particular winter route. For a specific booking, compare schedules, change fees and baggage-inclusive prices."
         },
         "ja": {
           "title": "燃料費が増えてもルフトハンザの営業利益は増加",
           "summary": "グループの第3四半期売上高は122億ユーロだった。",
-          "body": "7～9月の決算\nルフトハンザグループは11月3日、売上高が前年同期比9％増の122億ユーロと発表した。調整後EBITは約14億ユーロで6％増え、燃料費は5億4,300万ユーロ増加した。\n\nグループの範囲\nルフトハンザ以外の航空会社や貨物、整備部門も含む。調整後EBITは特定項目を調整した営業活動の指標で、売上高や純利益とは異なる。\n\n利用者が確認したい点\n会社は需要の強さと費用管理を挙げた。夏の需要を含む決算から冬の個別路線の運賃は読み取れない。予約時は運航日や変更手数料、手荷物込みの価格が判断材料になる。"
+          "body": "燃料費が上がったのに、ルフトハンザグループは増益。どうしてでしょうか。利益の金額と利益率を並べると、この四半期の動きが見えてきます。\n\n7～9月の決算\nルフトハンザグループは11月3日、売上高が前年同期比9％増の122億ユーロと発表した。調整後EBITは約14億ユーロで6％増え、燃料費は5億4,300万ユーロ増加した。\n\nグループの範囲\nルフトハンザ以外の航空会社や貨物、整備部門も含む。調整後EBITは特定項目を調整した営業活動の指標で、売上高や純利益とは異なる。\n\n増益でも利益率が下がった理由\nグループの第3四半期決算表では、調整後営業利益は13億3,100万ユーロから14億700万ユーロへ7,600万ユーロ増えた。売上高は111億9,900万ユーロから122億4,000万ユーロへ約9％伸び、利益の伸び約6％を上回った。調整後営業利益率は11.9％から11.5％へ0.4ポイント低下した。利益の総額は増えたが、売上高100ユーロ当たりの利益は11.90ユーロから11.50ユーロに減った。\n\n利用者が確認したい点\n会社は需要の強さと費用管理を挙げた。夏の需要を含む決算から冬の個別路線の運賃は読み取れない。予約時は運航日や変更手数料、手荷物込みの価格が判断材料になる。"
         },
         "zh": {
           "title": "燃油成本上升，汉莎集团三季度营业利润仍增长",
           "summary": "集团公布第三季度营收为122亿欧元。",
-          "body": "7至9月的表现\n汉莎集团11月3日宣布，营收同比增长9%至122亿欧元，调整后息税前利润增长6%至约14亿欧元，燃油成本同比增加5.43亿欧元。\n\n理解集团数字\n集团还包括其他航空公司、货运和维修业务。调整后息税前利润衡量经部分项目调整的经营表现，营收和净利润则反映不同范围。\n\n旅客如何理解\n公司将改善归因于旺盛需求和成本管理。包含暑期的季度数据难以预测某条冬季航线的票价。预订时可以比较航班时间、改签费用和包含行李的总价。"
+          "body": "燃油变贵了，汉莎航空集团的利润却增加了。这是怎么回事？把利润和利润率放在一起看，就容易理解这个季度发生了什么。\n\n7至9月的表现\n汉莎集团11月3日宣布，营收同比增长9%至122亿欧元，调整后息税前利润增长6%至约14亿欧元，燃油成本同比增加5.43亿欧元。\n\n理解集团数字\n集团还包括其他航空公司、货运和维修业务。调整后息税前利润衡量经部分项目调整的经营表现，营收和净利润则反映不同范围。\n\n利润增加，为何利润率下降\n集团第三季度业绩表显示，调整后营业利润从13.31亿欧元增至14.07亿欧元，增加7,600万欧元。同期营收从111.99亿欧元增至122.40亿欧元，约9%的增幅高于调整后营业利润约6%的增幅。因此，调整后营业利润率从11.9%降至11.5%，下降0.4个百分点。利润总额增加，但每100欧元营收留下的调整后营业利润从11.90欧元降至11.50欧元。\n\n旅客如何理解\n公司将改善归因于旺盛需求和成本管理。包含暑期的季度数据难以预测某条冬季航线的票价。预订时可以比较航班时间、改签费用和包含行李的总价。"
         }
       },
       "sources": [
         {
           "name": "Lufthansa Group",
           "url": "https://newsroom.lufthansagroup.com/lufthansa-group-steigert-operativen-gewinn--starke-nachfrage-und-kostendisziplin-gleichen-hoehere-treibstoffkosten-mehr-als-aus/"
+        },
+        {
+          "name": "Lufthansa Group · Q3 2026 results, slide 25",
+          "url": "https://investor-relations.lufthansagroup.com/fileadmin/downloads/en/charts-speeches/LH-QR-2026-3-charts.pdf"
         }
       ],
       "image": {
