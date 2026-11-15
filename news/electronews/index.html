@@ -50,8 +50,11 @@ function render(){
   $('#latest-hero').replaceChildren(...(first?[makeCard(first,true)]:[]));
   renderList();
 }
+const searchQuery = new URLSearchParams(location.hash.slice(1)).get('q');
+if (searchQuery) $('#search').value = searchQuery;
 $('#search').oninput=renderList;
 render();
+if (searchQuery) $('#search').scrollIntoView({block:'center'});
 fetch('./news.json').then(r=>r.json()).then(d=>{if(Array.isArray(d.articles)){data=d;render()}}).catch(()=>{});
 </script><footer class="site-footer"><div class="site-footer-inner"><div><div class="site-footer-brand">Electro News</div><small>© 2026 Newspaper Lab</small></div><nav aria-label="패밀리 사이트"><div class="family-label">패밀리 사이트</div><div class="family-links"><a href="https://newspaperlab.github.io/news/airlog/">에어로그 <span aria-hidden="true">↗</span></a><a href="https://newspaperlab.github.io/news/electronews/" aria-current="page">일렉트로뉴스 <span aria-hidden="true">↗</span></a></div></nav></div></footer><script>(()=>{const editionLanguage=new URLSearchParams(location.search).get('lang');
 const currentEditionLanguage=['ko','en','ja','zh'].includes(editionLanguage)?editionLanguage:'ko';

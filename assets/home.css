@@ -125,3 +125,40 @@ footer { margin-top: clamp(24px,5vh,55px); border-top: 1px solid var(--line); pa
   .edition-card:hover::after { animation: shine .9s var(--ease); }
   .edition-card:hover .edition-arrow { transform: rotate(9deg) scale(1.1); }
 }
+
+.edition-transition {
+  position: fixed;
+  z-index: 10000;
+  inset: 0 auto auto 0;
+  width: 100vw;
+  height: 100dvh;
+  overflow: hidden;
+  background: #101a32;
+}
+.edition-transition .edition-card {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  border-radius: 0;
+  animation: none;
+  clip-path: none;
+  pointer-events: none;
+}
+.edition-transition .edition-card img { animation: none; transform: scale(1.055); }
+.edition-transition .edition-copy { animation: none; visibility: hidden; }
+.edition-transition .edition-arrow { display: none; }
+.edition-transition-label {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  background: #101a326e;
+  color: #fff;
+  text-align: center;
+  font-size: clamp(1.45rem, 4.5vw, 3.75rem);
+  font-weight: 850;
+  letter-spacing: -.045em;
+  text-shadow: 0 3px 16px #0b1024;
+  animation: headline-in .28s .12s backwards;
+}

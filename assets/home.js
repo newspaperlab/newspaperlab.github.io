@@ -32,3 +32,49 @@ if (matchMedia('(hover: hover) and (pointer: fine) and (prefers-reduced-motion: 
     });
   }
 }
+
+const motionPreference = matchMedia('(prefers-reduced-motion: reduce)');
+let transitionLayer;
+for (const link of document.querySelectorAll('[data-edition-link]')) {
+  link.addEventListener('click', event => {
+    if (event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey ||
+        event.shiftKey || event.altKey || motionPreference.matches || !Element.prototype.animate) return;
+    event.preventDefault();
+    if (transitionLayer) return;
+
+    const start = link.getBoundingClientRect();
+    const preview = link.cloneNode(true);
+    preview.removeAttribute('href');
+    preview.setAttribute('aria-hidden', 'true');
+    for (const node of preview.querySelectorAll('[id]')) node.removeAttribute('id');
+
+    const edition = link.querySelector('.edition-name').textContent;
+    const label = document.createElement('span');
+    label.className = 'edition-transition-label';
+    label.setAttribute('role', 'status');
+    label.textContent = {
+      en: `Opening ${edition}`,
+      ja: `${edition} に移動します`,
+      zh: `正在打开 ${edition}`,
+    }[requested] || `${edition}로 이동합니다`;
+
+    transitionLayer = document.createElement('div');
+    transitionLayer.className = 'edition-transition';
+    transitionLayer.append(preview, label);
+    document.body.append(transitionLayer);
+    transitionLayer.animate(
+      [
+        {top: `${start.top}px`, left: `${start.left}px`, width: `${start.width}px`, height: `${start.height}px`, borderRadius: '14px'},
+        {top: '0px', left: '0px', width: '100vw', height: '100dvh', borderRadius: '0px'},
+      ],
+      {duration: 460, easing: 'cubic-bezier(.25,.78,.19,1)', fill: 'both'}
+    ).finished
+      .then(() => location.assign(link.href))
+      .catch(() => { if (transitionLayer) location.assign(link.href); });
+  });
+}
+window.addEventListener('pageshow', () => {
+  const layer = transitionLayer;
+  transitionLayer = null;
+  layer?.remove();
+});
