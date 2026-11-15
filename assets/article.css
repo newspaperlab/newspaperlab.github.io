@@ -234,14 +234,15 @@ main .article-head ~ .reading > p {
   .article-tools {
     position: fixed;
     z-index: 4;
-    left: calc(50% - 506px);
+    left: calc(50% - 516px);
     top: min(42vh, 365px);
-    width: 67px;
+    width: 77px;
     display: grid;
     gap: 6px;
     margin: 0;
   }
-  .article-tool { flex-direction: column; gap: 4px; min-height: 50px; }
+  .article-tool { flex-direction: column; gap: 4px; min-height: 50px; padding-inline: 5px; }
+  .article-tool > span:last-child { white-space: nowrap; }
 }
 @media (max-width: 720px) {
   body:has(main .article-head) .topline header { flex-wrap: wrap; gap: 12px; }
