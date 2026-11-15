@@ -1,6 +1,147 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "articles": [
+    {
+      "id": "porter-edmonton-las-vegas-los-cabos-20261116",
+      "date": "2026-11-03",
+      "published": "2026-11-16",
+      "source": "Porter Airlines",
+      "url": "https://www.flyporter.com/en-us/about-porter/media-centre/news-details?title=Porter+Airlines+takes+off+from+Edmonton+with+four+new+sun+routes+2026+11",
+      "category": {
+        "ko": "노선",
+        "en": "Routes",
+        "ja": "路線",
+        "zh": "航线"
+      },
+      "locales": {
+        "ko": {
+          "title": "포터항공, 11월 16일부터 에드먼턴–라스베이거스·로스카보스 운항",
+          "summary": "두 노선은 각각 주 4회예요. 11월 3일 발표와 현지 16일 첫 운항 예정일을 나눠 살펴봤어요."
+        },
+        "en": {
+          "title": "Porter schedules Edmonton flights to Las Vegas and Los Cabos from November 16",
+          "summary": "Each route is planned four times weekly. The November 3 announcement and the local launch date are separate milestones."
+        },
+        "ja": {
+          "title": "ポーター航空、11月16日からエドモントン―ラスベガス・ロスカボス線",
+          "summary": "両路線は週4便の予定です。11月3日の発表と現地16日の就航予定日を分けて確認します。"
+        },
+        "zh": {
+          "title": "波特航空计划11月16日起开通埃德蒙顿至拉斯维加斯、洛斯卡沃斯航线",
+          "summary": "两条航线均计划每周四班。11月3日发布计划，首航则安排在当地16日。"
+        }
+      },
+      "sources": [
+        {
+          "name": "Porter Airlines",
+          "url": "https://www.flyporter.com/en-us/about-porter/media-centre/news-details?title=Porter+Airlines+takes+off+from+Edmonton+with+four+new+sun+routes+2026+11"
+        }
+      ],
+      "image": {
+        "url": "assets/20261116-porter.jpg",
+        "alt": {
+          "ko": "눈 덮인 캐나다 공항 계류장의 무표식 소형 여객기",
+          "en": "Unbranded regional jet on a snowy Canadian airport apron",
+          "ja": "雪のカナダの空港に駐機する無塗装の小型旅客機",
+          "zh": "加拿大雪地机场停机坪上的无标识小型客机"
+        },
+        "generated": true
+      }
+    },
+    {
+      "id": "alaska-ground-stop-600-cancellations-20261114",
+      "date": "2026-11-14",
+      "published": "2026-11-16",
+      "source": "Alaska Airlines",
+      "url": "https://news.alaskaair.com/on-the-record/alaska-airlines-statement-on-faa-issued-ground-stop/",
+      "category": {
+        "ko": "운항",
+        "en": "Operations",
+        "ja": "運航",
+        "zh": "运营"
+      },
+      "locales": {
+        "ko": {
+          "title": "알래스카항공그룹, 미 전국 출발 정지 뒤 약 600편 취소",
+          "summary": "11월 14일 오전 기준 5만2천 명 넘게 영향을 받았어요. 출발 정지가 풀린 뒤에도 취소가 늘어난 이유를 설명해요."
+        },
+        "en": {
+          "title": "Alaska Air Group reports nearly 600 cancellations after U.S. ground stop",
+          "summary": "More than 52,000 guests were affected as of the November 14 morning update. Here is why disruption continued after the restriction ended."
+        },
+        "ja": {
+          "title": "アラスカ航空グループ、全米グラウンドストップ後に約600便欠航",
+          "summary": "11月14日朝の時点で5万2000人超に影響。規制解除後も欠航が増えた理由を整理します。"
+        },
+        "zh": {
+          "title": "阿拉斯加航空集团称全美停飞后取消近600个航班",
+          "summary": "截至11月14日上午，超过5.2万名旅客受影响。限制解除后取消数仍上升，原因在于机队和机组需要重新归位。"
+        }
+      },
+      "sources": [
+        {
+          "name": "Alaska Airlines",
+          "url": "https://news.alaskaair.com/on-the-record/alaska-airlines-statement-on-faa-issued-ground-stop/"
+        }
+      ],
+      "image": {
+        "url": "assets/20261116-alaska.jpg",
+        "alt": {
+          "ko": "운항 복구 중인 일반 미국 공항의 무표식 여객기",
+          "en": "Unbranded airliners at a generic U.S. airport during operational recovery",
+          "ja": "運航復旧中の米国の空港にいる無塗装の旅客機",
+          "zh": "运营恢复期间美国普通机场的无标识客机"
+        },
+        "generated": true
+      }
+    },
+    {
+      "id": "cathay-airbus-a330neo-a321neo-order-20261111",
+      "date": "2026-11-11",
+      "published": "2026-11-16",
+      "source": "Airbus",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-11-the-cathay-group-orders-14-additional-airbus-aircraft",
+      "category": {
+        "ko": "항공기",
+        "en": "Aircraft",
+        "ja": "航空機",
+        "zh": "飞机"
+      },
+      "locales": {
+        "ko": {
+          "title": "캐세이그룹, A330-900 11대·A321neo 3대 추가 주문",
+          "summary": "확정 주문은 모두 14대예요. 주문 발표가 곧 새 노선이나 좌석 변경을 뜻하지 않는 이유도 짚었어요."
+        },
+        "en": {
+          "title": "Cathay Group adds 11 A330-900s and three A321neos",
+          "summary": "The firm order covers 14 aircraft. Delivery dates, routes and cabin layouts were not announced."
+        },
+        "ja": {
+          "title": "キャセイグループ、A330-900を11機・A321neoを3機追加発注",
+          "summary": "確定注文は14機。納入時期、路線、客室仕様はまだ公表されていません。"
+        },
+        "zh": {
+          "title": "国泰集团增订11架A330-900和3架A321neo",
+          "summary": "这是一笔14架飞机的确认订单，但交付时间、航线和客舱配置尚未公布。"
+        }
+      },
+      "sources": [
+        {
+          "name": "Airbus",
+          "url": "https://www.airbus.com/en/newsroom/press-releases/2026-11-the-cathay-group-orders-14-additional-airbus-aircraft"
+        }
+      ],
+      "image": {
+        "url": "assets/20261116-cathay.jpg",
+        "alt": {
+          "ko": "밝은 격납고 안의 무표식 광동체와 좁은동체 여객기",
+          "en": "Unbranded widebody and single-aisle aircraft in a bright hangar",
+          "ja": "明るい格納庫内の無塗装の広胴機と単通路機",
+          "zh": "明亮机库中的无标识宽体与单通道客机"
+        },
+        "generated": true
+      }
+    },
     {
       "id": "korean-air-incheon-newark-20261112",
       "date": "2026-11-12",

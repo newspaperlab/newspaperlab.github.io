@@ -1,6 +1,151 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "articles": [
+    {
+      "id": "samsung-ces-2027-fold8-awards-20261115",
+      "date": "2026-11-15",
+      "published": "2026-11-16",
+      "source": "Samsung Newsroom",
+      "url": "https://news.samsung.com/global/samsungs-latest-products-recognized-by-consumer-technology-association-ahead-of-ces-2027",
+      "category": {
+        "ko": "모바일",
+        "en": "Mobile",
+        "ja": "モバイル",
+        "zh": "移动设备"
+      },
+      "locales": {
+        "ko": {
+          "title": "삼성 갤럭시 Z 폴드8·폴드8 울트라, CES 2027 최고혁신상 선정",
+          "summary": "수상 발표는 제품의 판매 시작과 달라요. 공개된 사양과 아직 확인되지 않은 가격·지역 출시를 나눠 봤어요."
+        },
+        "en": {
+          "title": "Samsung Galaxy Z Fold8 and Fold8 Ultra receive CES 2027 Best of Innovation awards",
+          "summary": "An award announcement is not a retail launch. Here is what the published specifications say—and what remains regional or unannounced."
+        },
+        "ja": {
+          "title": "Galaxy Z Fold8とFold8 Ultra、CES 2027最高イノベーション賞",
+          "summary": "受賞発表は販売開始とは別です。公開仕様と、価格・地域別発売など未確定の点を分けます。"
+        },
+        "zh": {
+          "title": "三星Galaxy Z Fold8与Fold8 Ultra获CES 2027最佳创新奖",
+          "summary": "获奖公告不等于开售。本文区分已公布规格与尚未确定的价格、地区上市条件。"
+        }
+      },
+      "sources": [
+        {
+          "name": "Samsung Newsroom",
+          "url": "https://news.samsung.com/global/samsungs-latest-products-recognized-by-consumer-technology-association-ahead-of-ces-2027"
+        },
+        {
+          "name": "Consumer Technology Association",
+          "url": "https://www.ces.tech/press-releases/cta-announces-ces-innovation-awards-2027-honorees"
+        }
+      ],
+      "image": {
+        "url": "assets/20261116-samsung.jpg",
+        "alt": {
+          "ko": "자연광 전시장에 놓인 일반 접이식 기기와 생활가전",
+          "en": "Generic foldable devices and home electronics in a naturally lit exhibition",
+          "ja": "自然光の展示空間に並ぶ一般的な折りたたみ端末と家電",
+          "zh": "自然光展区中的通用折叠设备与家电"
+        },
+        "generated": true
+      }
+    },
+    {
+      "id": "google-pixel-november-drop-rollout-20261110",
+      "date": "2026-11-10",
+      "published": "2026-11-16",
+      "source": "Google",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/",
+      "category": {
+        "ko": "소프트웨어",
+        "en": "Software",
+        "ja": "ソフトウェア",
+        "zh": "软件"
+      },
+      "locales": {
+        "ko": {
+          "title": "구글 11월 Pixel Drop 배포 시작…기종·언어·국가별 조건 확인해야",
+          "summary": "11월 10일부터 수 주에 걸쳐 배포돼요. 같은 날 모든 픽셀에 같은 기능이 켜지는 업데이트는 아니에요."
+        },
+        "en": {
+          "title": "Google begins November Pixel Drop with model, language and country limits",
+          "summary": "The rollout started November 10 and continues over several weeks. Not every feature reaches every Pixel on the same day."
+        },
+        "ja": {
+          "title": "Google、11月のPixel Dropを配信開始　機種・言語・国の条件に注意",
+          "summary": "11月10日から数週間かけて配信されます。全Pixelに同じ日に同じ機能が来る更新ではありません。"
+        },
+        "zh": {
+          "title": "Google开始推送11月Pixel Drop，机型、语言和地区条件各异",
+          "summary": "更新从11月10日起分数周推送，并非所有Pixel会在同一天获得相同功能。"
+        }
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/"
+        }
+      ],
+      "image": {
+        "url": "assets/20261116-pixel.jpg",
+        "alt": {
+          "ko": "창가 책상 위 일반 스마트폰과 열쇠, 위치추적 태그",
+          "en": "Generic smartphone, keys and tracking tag on a desk by a window",
+          "ja": "窓辺の机に置かれた一般的なスマートフォン、鍵、追跡タグ",
+          "zh": "窗边桌面上的通用手机、钥匙与定位标签"
+        },
+        "generated": true
+      }
+    },
+    {
+      "id": "playstation-pulse-elevate-delay-20261106",
+      "date": "2026-11-06",
+      "published": "2026-11-16",
+      "source": "PlayStation Blog",
+      "url": "https://blog.playstation.com/2026/08/18/20260818-speaker/",
+      "category": {
+        "ko": "오디오",
+        "en": "Audio",
+        "ja": "オーディオ",
+        "zh": "音频"
+      },
+      "locales": {
+        "ko": {
+          "title": "플레이스테이션 Pulse Elevate 출시 연기…새 일정은 미공개",
+          "summary": "품질 검사에서 생산 문제가 발견됐어요. 원래 11월 12일 출시 예정이었지만 지금은 새 날짜를 기다려야 해요."
+        },
+        "en": {
+          "title": "PlayStation delays Pulse Elevate speakers with no new launch date",
+          "summary": "A production issue was found during quality testing. The former November 12 release is no longer valid."
+        },
+        "ja": {
+          "title": "PlayStation、Pulse Elevateの発売を延期　新発売日は未定",
+          "summary": "品質試験で生産上の問題が見つかりました。従来の11月12日発売予定は無効です。"
+        },
+        "zh": {
+          "title": "PlayStation推迟Pulse Elevate音箱上市，新日期尚未公布",
+          "summary": "质量测试发现生产问题，原定11月12日的上市安排已经失效。"
+        }
+      },
+      "sources": [
+        {
+          "name": "PlayStation Blog",
+          "url": "https://blog.playstation.com/2026/08/18/20260818-speaker/"
+        }
+      ],
+      "image": {
+        "url": "assets/20261116-pulse.jpg",
+        "alt": {
+          "ko": "자연광이 드는 책상 위 일반 무선 데스크톱 스피커",
+          "en": "Generic wireless desktop speakers on a naturally lit desk",
+          "ja": "自然光の机に置かれた一般的なワイヤレスデスクトップスピーカー",
+          "zh": "自然光书桌上的通用无线桌面音箱"
+        },
+        "generated": true
+      }
+    },
     {
       "id": "asus-proart-gr1x-adobe-max-20261111",
       "date": "2026-11-11",
