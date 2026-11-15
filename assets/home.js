@@ -1,8 +1,14 @@
 const languages = {
-  ko: ['항공·전자기기 뉴스', '매일 오전 7시, 새로운 기사를 전합니다.', '최신 기사', '전체 기사', '제목이나 키워드 검색', '기사 검색', '매체', '모든 매체', n => `기사 ${n}편`, '다국어 목록을 불러오지 못해 한국어 기사를 표시합니다.'],
-  en: ['Aviation & electronics news', 'New stories daily at 7 a.m. KST.', 'Latest stories', 'All stories', 'Search titles or keywords', 'Search stories', 'Edition', 'All editions', n => `${n} stories`, 'The translated archive is unavailable. Showing Korean stories.'],
-  ja: ['航空・電子機器ニュース', '毎日午前7時（韓国時間）に新着記事を公開します。', '最新記事', 'すべての記事', 'タイトルやキーワードで検索', '記事を検索', 'メディア', 'すべてのメディア', n => `${n}件の記事`, '多言語版を読み込めなかったため、韓国語の記事を表示しています。'],
-  zh: ['航空与电子设备新闻', '每天韩国时间上午7点发布新文章。', '最新文章', '全部文章', '搜索标题或关键词', '搜索文章', '媒体', '所有媒体', n => `${n}篇文章`, '暂时无法加载多语言列表，现显示韩语文章。'],
+  ko: ['읽을 매체를 선택하세요', '매일 오전 7시, 새로운 기사를 전합니다.', '최신 기사', '전체 기사', '제목이나 키워드 검색', '기사 검색', '매체', '모든 매체', n => `기사 ${n}편`, '다국어 목록을 불러오지 못해 한국어 기사를 표시합니다.'],
+  en: ['Choose a publication', 'New stories daily at 7 a.m. KST.', 'Latest stories', 'All stories', 'Search titles or keywords', 'Search stories', 'Edition', 'All editions', n => `${n} stories`, 'The translated archive is unavailable. Showing Korean stories.'],
+  ja: ['メディアを選ぶ', '毎日午前7時（韓国時間）に新着記事を公開します。', '最新記事', 'すべての記事', 'タイトルやキーワードで検索', '記事を検索', 'メディア', 'すべてのメディア', n => `${n}件の記事`, '多言語版を読み込めなかったため、韓国語の記事を表示しています。'],
+  zh: ['请选择媒体', '每天韩国时间上午7点发布新文章。', '最新文章', '全部文章', '搜索标题或关键词', '搜索文章', '媒体', '所有媒体', n => `${n}篇文章`, '暂时无法加载多语言列表，现显示韩语文章。'],
+};
+const portal = {
+  ko: ['항공 뉴스', '항공사, 공항, 새 노선 소식', '전자기기 뉴스', '새 제품과 일상 속 기술', '두 매체 기사 모아보기'],
+  en: ['Aviation news', 'Airlines, airports and new routes', 'Electronics news', 'New devices and everyday technology', 'Browse both publications'],
+  ja: ['航空ニュース', '航空会社、空港、新路線', '電子機器ニュース', '新製品と身近なテクノロジー', '両メディアの記事を読む'],
+  zh: ['航空新闻', '航司、机场与新航线', '电子设备新闻', '新品与日常科技', '浏览两家媒体的文章'],
 };
 const editions = { airlog: 'AIRLOG', electronews: 'Electro News' };
 const requested = new URLSearchParams(location.search).get('lang');
@@ -17,6 +23,16 @@ let statusNote = '';
 
 document.documentElement.lang = lang === 'zh' ? 'zh-Hans' : lang;
 document.title = `Newspaper Lab | ${title}`;
+const [airlogTopic, airlogDesc, electronicsTopic, electronicsDesc, browseTitle] = portal[lang];
+for (const [id, label] of Object.entries({
+  'airlog-topic': airlogTopic,
+  'airlog-desc': airlogDesc,
+  'electronews-topic': electronicsTopic,
+  'electronews-desc': electronicsDesc,
+  'browse-title': browseTitle,
+})) {
+  document.getElementById(id).textContent = label;
+}
 document.querySelector('#page-title').textContent = title;
 document.querySelector('#schedule').textContent = schedule;
 document.querySelector('#featured-title').textContent = latestTitle;
@@ -84,7 +100,14 @@ filter.addEventListener('change', applyFilter);
 document.querySelector('.archive-tools').hidden = false;
 applyFilter();
 
+const drawer = document.querySelector('.news-drawer');
 if (lang !== 'ko') {
+  drawer.addEventListener('toggle', loadTranslatedStories);
+}
+
+function loadTranslatedStories() {
+  if (!drawer.open) return;
+  drawer.removeEventListener('toggle', loadTranslatedStories);
   Promise.all(Object.keys(editions).map(async edition => {
     const response = await fetch(`/news/${edition}/news.json`);
     if (!response.ok) throw new Error(`Archive returned ${response.status}`);

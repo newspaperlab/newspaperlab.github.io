@@ -8,9 +8,9 @@
 <title>Newspaper Lab | 항공·전자기기 뉴스</title>
 <meta name="description" content="에어로그와 일렉트로뉴스의 최신 소식과 전체 기사. 항공 노선과 공항, 전자기기와 기술 뉴스를 네 가지 언어로 읽어보세요.">
 <link rel="canonical" href="https://newspaperlab.github.io/">
-<meta name="theme-color" content="#f5f5f2">
-<link rel="stylesheet" href="/assets/home.css">
-<script defer src="/assets/home.js"></script>
+<meta name="theme-color" content="#f5f5f1">
+<link rel="stylesheet" href="/assets/home.css?v=20261115-portal">
+<script defer src="/assets/home.js?v=20261115-portal"></script>
 <link rel="stylesheet" href="/assets/privacy.css?v=2026-11-06.1"><script src="/assets/privacy.js?v=2026-11-06.1" defer></script></head>
 <body>
 <div class="page">
@@ -25,13 +25,32 @@
 </header>
 <main>
   <div class="intro">
-    <h1 id="page-title">항공·전자기기 뉴스</h1>
+    <h1 id="page-title">읽을 매체를 선택하세요</h1>
     <p id="schedule">매일 오전 7시, 새로운 기사를 전합니다.</p>
-    <nav class="editions" aria-label="Newspaper Lab editions">
-      <a data-edition-link href="/news/airlog/">AIRLOG</a>
-      <a data-edition-link href="/news/electronews/">Electro News</a>
-    </nav>
   </div>
+  <nav class="editions" aria-labelledby="page-title">
+    <a class="edition-card airlog" data-edition-link href="/news/airlog/">
+      <img src="/news/airlog/assets/20261115-korean.jpg" alt="">
+      <span class="edition-copy">
+        <span class="edition-topic" id="airlog-topic">항공 뉴스</span>
+        <strong class="edition-name">Airlog</strong>
+        <span class="edition-desc" id="airlog-desc">항공사, 공항, 새 노선 소식</span>
+      </span>
+      <span class="edition-arrow" aria-hidden="true">→</span>
+    </a>
+    <a class="edition-card electronews" data-edition-link href="/news/electronews/">
+      <img src="/news/electronews/assets/20261115-proart.jpg" alt="">
+      <span class="edition-copy">
+        <span class="edition-topic" id="electronews-topic">전자기기 뉴스</span>
+        <strong class="edition-name">Electro News</strong>
+        <span class="edition-desc" id="electronews-desc">새 제품과 일상 속 기술</span>
+      </span>
+      <span class="edition-arrow" aria-hidden="true">→</span>
+    </a>
+  </nav>
+  <details class="news-drawer">
+    <summary><span id="browse-title">두 매체 기사 모아보기</span></summary>
+    <div class="news-drawer-content">
   <section aria-labelledby="featured-title">
     <h2 id="featured-title">최신 기사</h2>
     <div class="featured-grid" id="featured">
@@ -201,6 +220,8 @@
 <!-- archive:end -->
     </div>
   </section>
+    </div>
+  </details>
 </main>
 <footer>© 2026 Newspaper Lab</footer>
 </div>
