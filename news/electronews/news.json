@@ -1,6 +1,155 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "articles": [
+    {
+      "id": "apple-health-ai-usage-study-20261115",
+      "date": "2026-11-15",
+      "published": "2026-11-17",
+      "source": "Apple",
+      "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+      "category": {
+        "ko": "디지털 헬스",
+        "en": "Digital health",
+        "ja": "デジタルヘルス",
+        "zh": "数字健康"
+      },
+      "locales": {
+        "ko": {
+          "title": "애플, 미국서 최대 20만 명 규모 건강 AI 사용 연구 시작",
+          "summary": "21세 이상과 Apple Intelligence 지원 아이폰이 대상이에요. 연구 앱은 진단·치료 도구가 아니며 데이터 제공은 선택 사항이에요."
+        },
+        "en": {
+          "title": "Apple opens U.S. health AI usage study for up to 200,000 participants",
+          "summary": "Eligible participants are 21 or older with an Apple Intelligence-capable iPhone. The app is research, not diagnosis or treatment."
+        },
+        "ja": {
+          "title": "Apple、米国で最大20万人の健康AI利用研究を開始",
+          "summary": "21歳以上でApple Intelligence対応iPhoneが対象。研究アプリは診断・治療用ではなく、データ共有は選択制です。"
+        },
+        "zh": {
+          "title": "苹果在美国启动最多20万人参与的健康AI使用研究",
+          "summary": "参与者须年满21岁并使用支持Apple Intelligence的iPhone；应用用于研究，不提供诊断或治疗。"
+        }
+      },
+      "sources": [
+        {
+          "name": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/"
+        },
+        {
+          "name": "Apple App Store",
+          "url": "https://apps.apple.com/us/app/apple-health-ai-study-app/id6800060365"
+        }
+      ],
+      "image": {
+        "url": "assets/20261117-applehealth.png",
+        "alt": {
+          "ko": "건강 기록 노트와 스마트폰·시계가 놓인 책상",
+          "en": "Desk with a health notebook, generic smartphone and watch",
+          "ja": "健康記録ノートと一般的なスマートフォン・時計のある机",
+          "zh": "放有健康记录本、通用手机和手表的桌面"
+        },
+        "generated": true
+      }
+    },
+    {
+      "id": "monzo-contactless-default-limit-removal-20261112",
+      "date": "2026-11-12",
+      "published": "2026-11-17",
+      "source": "Monzo",
+      "url": "https://monzo.com/blog/removing-default-cumulative-contactless-limit",
+      "category": {
+        "ko": "핀테크",
+        "en": "Fintech",
+        "ja": "フィンテック",
+        "zh": "金融科技"
+      },
+      "locales": {
+        "ko": {
+          "title": "몬조, 누적 200파운드 비접촉 결제 기본 제한 단계적 제거",
+          "summary": "한 번에 100파운드 한도는 유지돼요. 모든 고객에게 즉시 적용되는 것이 아니라 위험 기반 확인으로 순차 전환해요."
+        },
+        "en": {
+          "title": "Monzo begins removing the default £200 cumulative contactless limit",
+          "summary": "The £100 single-payment cap remains. A gradual rollout replaces the blanket threshold with risk-based checks."
+        },
+        "ja": {
+          "title": "Monzo、タッチ決済の累計200ポンド初期上限を段階的に撤廃",
+          "summary": "1回100ポンドの上限は維持。全員一斉ではなく、リスク判定による確認へ順次移行します。"
+        },
+        "zh": {
+          "title": "Monzo开始逐步取消200英镑非接触累计默认限额",
+          "summary": "单笔100英镑上限保持不变；新方式逐步用风险判断替代统一累计阈值。"
+        }
+      },
+      "sources": [
+        {
+          "name": "Monzo product update",
+          "url": "https://monzo.com/blog/removing-default-cumulative-contactless-limit"
+        },
+        {
+          "name": "Monzo help",
+          "url": "https://monzo.com/help/account-and-profile/contactless-limit"
+        }
+      ],
+      "image": {
+        "url": "assets/20261117-monzo.png",
+        "alt": {
+          "ko": "카페에서 무표식 카드로 비접촉 결제하는 일반 장면",
+          "en": "Generic contactless card payment at a cafe",
+          "ja": "カフェで無地のカードをタッチ決済する一般的な場面",
+          "zh": "咖啡店使用无标识银行卡进行非接触支付的通用场景"
+        },
+        "generated": true
+      }
+    },
+    {
+      "id": "nvidia-vera-cpu-hpc-rack-20261116",
+      "date": "2026-11-16",
+      "published": "2026-11-17",
+      "source": "NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery",
+      "category": {
+        "ko": "컴퓨팅",
+        "en": "Computing",
+        "ja": "コンピューティング",
+        "zh": "计算"
+      },
+      "locales": {
+        "ko": {
+          "title": "NVIDIA, Vera CPU 192개 묶은 과학 컴퓨팅 랙 공개",
+          "summary": "전체 랙은 2027년 초부터 공급사 제품으로 나올 예정이에요. SDK와 포트란 컴파일러 공개 베타는 먼저 시작됐어요."
+        },
+        "en": {
+          "title": "NVIDIA unveils scientific computing rack built around 192 Vera CPUs",
+          "summary": "Vendor systems are expected in early 2027. The HPC SDK and a public beta Fortran compiler arrive first."
+        },
+        "ja": {
+          "title": "NVIDIA、Vera CPUを192基搭載する科学計算ラックを発表",
+          "summary": "完成ラックは2027年初めから各社が提供予定。SDKとFortranコンパイラの公開ベータは先行します。"
+        },
+        "zh": {
+          "title": "NVIDIA发布由192颗Vera CPU组成的科学计算机架",
+          "summary": "整机预计2027年初由多家厂商提供；HPC SDK和新一代Fortran编译器公测先行。"
+        }
+      },
+      "sources": [
+        {
+          "name": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery"
+        }
+      ],
+      "image": {
+        "url": "assets/20261117-nvidia.png",
+        "alt": {
+          "ko": "액체 냉각 배관이 보이는 일반 고성능 컴퓨팅 랙",
+          "en": "Generic high-performance computing racks with liquid-cooling pipes",
+          "ja": "液冷配管が見える一般的な高性能コンピューティングラック",
+          "zh": "带液冷管路的通用高性能计算机架"
+        },
+        "generated": true
+      }
+    },
     {
       "id": "samsung-ces-2027-fold8-awards-20261115",
       "date": "2026-11-15",

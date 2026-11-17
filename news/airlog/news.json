@@ -1,6 +1,155 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "articles": [
+    {
+      "id": "air-arabia-dammam-damascus-20261116",
+      "date": "2026-11-16",
+      "published": "2026-11-17",
+      "source": "Air Arabia",
+      "url": "https://press.airarabia.com/air-arabia-dammam-adds-damascus-to-its-international-network/",
+      "category": {
+        "ko": "노선",
+        "en": "Routes",
+        "ja": "路線",
+        "zh": "航线"
+      },
+      "locales": {
+        "ko": {
+          "title": "에어아라비아 담맘, 11월 20일부터 다마스쿠스 주 4회 운항",
+          "summary": "월·수·금·일요일에 A320으로 오갈 예정이에요. 16일 발표와 20일 첫 운항을 나눠 정리했어요."
+        },
+        "en": {
+          "title": "Air Arabia Dammam schedules four weekly Damascus flights from November 20",
+          "summary": "The A320 service is planned for Mondays, Wednesdays, Fridays and Sundays. Announcement and launch dates are separate."
+        },
+        "ja": {
+          "title": "エア・アラビア・ダンマーム、11月20日からダマスカス線を週4便",
+          "summary": "月・水・金・日曜にA320で運航予定。16日の発表と20日の就航予定を分けます。"
+        },
+        "zh": {
+          "title": "阿拉伯航空达曼计划11月20日起每周四班飞往大马士革",
+          "summary": "计划周一、三、五、日使用A320执飞，11月16日为公告日，20日才是首航计划。"
+        }
+      },
+      "sources": [
+        {
+          "name": "Air Arabia",
+          "url": "https://press.airarabia.com/air-arabia-dammam-adds-damascus-to-its-international-network/"
+        },
+        {
+          "name": "Air Arabia booking",
+          "url": "https://flights.airarabia.com/en-sa/flights-from-dammam-to-damascus"
+        }
+      ],
+      "image": {
+        "url": "assets/20261117-airarabia.png",
+        "alt": {
+          "ko": "아침 중동 공항 탑승구의 무표식 단일통로 여객기",
+          "en": "Unbranded single-aisle aircraft at a Middle Eastern airport gate in morning light",
+          "ja": "朝の中東の空港ゲートにいる無塗装の単通路機",
+          "zh": "晨光中东机场登机口的无标识单通道客机"
+        },
+        "generated": true
+      }
+    },
+    {
+      "id": "air-india-new-york-nonstop-restored-20261115",
+      "date": "2026-11-15",
+      "published": "2026-11-17",
+      "source": "Air India",
+      "url": "https://www.airindia.com/in/en/newsroom/articles/air-india-restores-non-stop-delhi-mumbai-new-york-flights.html",
+      "category": {
+        "ko": "운항",
+        "en": "Operations",
+        "ja": "運航",
+        "zh": "运营"
+      },
+      "locales": {
+        "ko": {
+          "title": "에어인디아, 델리·뭄바이–뉴욕 4개 노선 직항 운항 복원",
+          "summary": "로마 급유 경유가 사라지면서 영향받던 여정은 최대 5시간 짧아져요. 노선별 횟수와 기종도 달라요."
+        },
+        "en": {
+          "title": "Air India restores nonstop operation on four Delhi and Mumbai–New York routes",
+          "summary": "Removing Rome fuel stops cuts affected journeys by up to five hours. Frequencies, airports and aircraft differ by route."
+        },
+        "ja": {
+          "title": "エア・インディア、デリー・ムンバイ―ニューヨーク4路線の直行運航を復旧",
+          "summary": "ローマ給油がなくなり、対象便は最大5時間短縮。路線ごとに便数と機材が違います。"
+        },
+        "zh": {
+          "title": "印度航空恢复德里、孟买至纽约地区四条不经停航线",
+          "summary": "取消罗马加油停靠后，受影响行程最多缩短五小时；各线班次、机场与机型不同。"
+        }
+      },
+      "sources": [
+        {
+          "name": "Air India Newsroom",
+          "url": "https://www.airindia.com/in/en/newsroom/articles/air-india-restores-non-stop-delhi-mumbai-new-york-flights.html"
+        },
+        {
+          "name": "Air India schedule",
+          "url": "https://www.airindia.com/en-in/delhi-to-new-york-flight-schedule"
+        }
+      ],
+      "image": {
+        "url": "assets/20261117-airindia.png",
+        "alt": {
+          "ko": "대륙간 출발을 준비하는 무표식 광동체 여객기",
+          "en": "Unbranded widebody preparing for an intercontinental departure",
+          "ja": "大陸間便の出発準備をする無塗装の広胴機",
+          "zh": "准备洲际出发的无标识宽体客机"
+        },
+        "generated": true
+      }
+    },
+    {
+      "id": "air-serbia-belgrade-podgorica-34-weekly-20261112",
+      "date": "2026-11-12",
+      "published": "2026-11-17",
+      "source": "Air Serbia",
+      "url": "https://www.airserbia.com/en/media-news/Air-Serbia-ups-the-number-of-Belgrade-Podgorica-flights-from-21-to-34-per-week~2010385",
+      "category": {
+        "ko": "노선",
+        "en": "Routes",
+        "ja": "路線",
+        "zh": "航线"
+      },
+      "locales": {
+        "ko": {
+          "title": "에어서비아, 2027년 3월 28일부터 베오그라드–포드고리차 주 34회",
+          "summary": "현재 주 21회에서 13회 늘어요. 매일 네 편에 더해 일주일 중 여섯 날은 다섯 번째 편이 생길 예정이에요."
+        },
+        "en": {
+          "title": "Air Serbia to raise Belgrade–Podgorica service to 34 weekly flights from March 28, 2027",
+          "summary": "The current 21 weekly flights gain 13. Four daily services are planned, with a fifth on six days."
+        },
+        "ja": {
+          "title": "エア・セルビア、2027年3月28日からベオグラード―ポドゴリツァを週34便",
+          "summary": "現在の週21便から13便増加。毎日4便、週6日は5便目を追加予定です。"
+        },
+        "zh": {
+          "title": "塞尔维亚航空拟2027年3月28日起将贝尔格莱德–波德戈里察增至每周34班",
+          "summary": "从现有每周21班增加13班，计划每天四班，其中六天再加第五班。"
+        }
+      },
+      "sources": [
+        {
+          "name": "Air Serbia",
+          "url": "https://www.airserbia.com/en/media-news/Air-Serbia-ups-the-number-of-Belgrade-Podgorica-flights-from-21-to-34-per-week~2010385"
+        }
+      ],
+      "image": {
+        "url": "assets/20261117-airserbia.png",
+        "alt": {
+          "ko": "발칸 지역 공항 계류장의 무표식 지역 여객기",
+          "en": "Unbranded regional jet on a Balkan airport apron",
+          "ja": "バルカン地域の空港にいる無塗装の地域旅客機",
+          "zh": "巴尔干地区机场停机坪上的无标识支线客机"
+        },
+        "generated": true
+      }
+    },
     {
       "id": "porter-edmonton-las-vegas-los-cabos-20261116",
       "date": "2026-11-03",
