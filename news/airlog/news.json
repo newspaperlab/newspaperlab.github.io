@@ -42,12 +42,12 @@
         }
       ],
       "image": {
-        "url": "assets/20261117-airarabia.png",
+        "url": "assets/20261116-alaska.jpg",
         "alt": {
-          "ko": "아침 중동 공항 탑승구의 무표식 단일통로 여객기",
-          "en": "Unbranded single-aisle aircraft at a Middle Eastern airport gate in morning light",
-          "ja": "朝の中東の空港ゲートにいる無塗装の単通路機",
-          "zh": "晨光中东机场登机口的无标识单通道客机"
+          "ko": "공항 탑승구에 주기된 무표식 단일통로 여객기 참고 이미지",
+          "en": "Illustrative unbranded single-aisle aircraft at an airport gate",
+          "ja": "空港ゲートに駐機する無標識の単通路機の参考画像",
+          "zh": "机场登机口停靠的无标识单通道客机示意图"
         },
         "generated": true
       }
