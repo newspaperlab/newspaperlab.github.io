@@ -101,3 +101,33 @@
   .brand-experience[data-scene="1"] [data-chapter="1"] svg,
   .brand-experience[data-scene="2"] [data-chapter="2"] svg{transform:none;opacity:1}
 }
+
+/* Newspaper Lab: full-width feature cards (2026-11-17) */
+.latest-stage #latest-hero .lead,
+.recommend-stage #stories .lead {
+  grid-template-columns: minmax(0, 1fr);
+}
+.latest-stage #latest-hero .lead > div,
+.recommend-stage #stories .lead > div {
+  width: 100%;
+  min-width: 0;
+  max-width: 1100px;
+  box-sizing: border-box;
+}
+.latest-stage #latest-hero .lead h2,
+.recommend-stage #stories .lead h2 {
+  font-size: clamp(30px, 4.8vw, 64px);
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+  word-break: keep-all;
+}
+@media (max-width: 650px) {
+  .latest-stage #latest-hero .lead h2,
+  .recommend-stage #stories .lead h2 {
+    font-size: clamp(28px, 7vw, 40px);
+  }
+  .latest-stage #latest-hero .lead > div,
+  .recommend-stage #stories .lead > div {
+    padding: 24px 22px 34px;
+  }
+}
